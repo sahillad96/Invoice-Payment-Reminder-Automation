@@ -3,6 +3,8 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Automation](https://img.shields.io/badge/Automation-Enabled-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+pip install python-dotenv colorama reportlab
+
 
 ## Project Preview
 
