@@ -1,0 +1,5 @@
+python-dotenv
+colorama
+reportlab
+flask
+pandas
