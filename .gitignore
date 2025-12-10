@@ -9,3 +9,5 @@ env/
 logs/
 __pycache__/
 *.pyc
+ai_daily_quote.py
+.venv/
