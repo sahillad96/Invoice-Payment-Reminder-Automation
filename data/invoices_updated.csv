@@ -1,0 +1,4 @@
+invoice_id,client_name,client_email,amount,due_date,status
+1,ABC Logistics,abc@test.com,5000,01-12-2024,Pending
+2,XYZ Traders,xyz@test.com,7500,15-11-2024,Paid
+3,PQR Transport,pqr@test.com,6000,20-11-2024,Pending

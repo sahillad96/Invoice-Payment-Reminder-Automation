@@ -1,4 +1,0 @@
-InvoiceID,ClientName,Email,Amount,DueDate,Status
-1,ABC Logistics,abc@test.com,5000,2024-12-01,Pending
-2,XYZ Traders,xyz@test.com,7500,2024-11-15,Paid
-3,PQR Transport,pqr@test.com,6000,2024-11-20,Pending

@@ -29,14 +29,15 @@ with open("invoices_updated.csv", "r") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
-        invoice_id = row["InvoiceID"]
-        client_name = row["ClientName"]
-        client_email = row["Email"]
-        amount = row["Amount"]
-        due_str = row["DueDate"]
-        status = row["Status"].lower()
+        invoice_id = row["invoice_id"]
+        client_name = row["client_name"]
+        client_email = row["due_date"]
+        amount = row["amount"]
+        due_str = row["due_date"]
+        status = row["status"].lower()
 
-        due_date = datetime.strptime(due_str, "%Y-%m-%d").date()
+        due_date = datetime.strptime(row["due_date"], "%d-%m-%Y")
+        due_date = due_date.date()
 
         # Check overdue + pending
         if due_date < today and status == "pending":
