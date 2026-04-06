@@ -33,6 +33,8 @@ This project automates invoice tracking by processing CSV data, identifying over
 
 ```bash
 python main.py
+
+python main.py sample_invoices.csv
 ```
 
 ## 📊 Output
