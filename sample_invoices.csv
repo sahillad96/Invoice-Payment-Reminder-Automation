@@ -1,0 +1,5 @@
+invoice_id,customer_name,email,amount,due_date,status
+101,ABC Pvt Ltd,abc@example.com,5000,2026-03-01,Pending
+102,XYZ Ltd,xyz@example.com,7500,2026-02-15,Pending
+103,LMN Corp,lmn@example.com,6200,2026-04-10,Paid
+104,PQR Ltd,pqr@example.com,8800,2026-02-20,Pending
