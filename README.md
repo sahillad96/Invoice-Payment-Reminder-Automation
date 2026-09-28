@@ -32,9 +32,7 @@ This project automates invoice tracking by processing CSV data, identifying over
 4. Run the script
 
 ```bash
-python main.py
-
-python main.py sample_invoices.csv
+python src/main.py data/invoices.csv
 ```
 
 ## 📊 Output
